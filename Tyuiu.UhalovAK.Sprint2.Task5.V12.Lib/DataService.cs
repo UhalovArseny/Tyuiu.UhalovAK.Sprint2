@@ -70,9 +70,10 @@ namespace Tyuiu.UhalovAK.Sprint2.Task5.V12.Lib
                 return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
             }
 
-            string res =  Convert.ToString(n) + "."  + Convert.ToString(m) + "." + Convert.ToString(g);
+            string res = "0" + Convert.ToString(n) + "." + "0" + Convert.ToString(m) + "." + Convert.ToString(g);
 
             return res;
         }
     }
 }
+ 
